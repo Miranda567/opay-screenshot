@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .transaction {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .transaction img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .transaction-details {
+            flex-grow: 1;
+        }
+        .transaction-details h2 {
+            margin: 0 0 10px;
+            font-size: 18px;
+            color: #555;
+        }
+        .transaction-details p {
+            margin: 5px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Transaction Details</h1>
+
+        <div class="transaction">
+            <img src="trans.jpg" alt="Transaction Image 1">
+            <div class="transaction-details">
+                <h2>Transaction ID: #12345</h2>
+                <p>Amount: 70,000</p>
+                <p>Date: 2024-12-07</p>
+                <p>Status: Successful</p>
+            </div>
+        </div>
+
+        <div class="transaction">
+            <img src="trans.jpg" alt="Transaction Image 2">
+            <div class="transaction-details">
+                <h2>Transaction ID: #67890</h2>
+                <p>Amount: $250</p>
+                <p>Date: 2024-12-06</p>
+                <p>Status: Pending</p>
+            </div>
+        </div>
+
+        <div class="transaction">
+            <img src="trans.jpg" alt="Transaction Image 3">
+            <div class="transaction-details">
+                <h2>Transaction ID: #11223</h2>
+                <p>Amount: $1,000</p>
+                <p>Date: 2024-12-05</p>
+                <p>Status: Failed</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
